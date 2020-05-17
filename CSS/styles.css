@@ -1,0 +1,74 @@
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0;
+}
+
+h1{
+    line-height: 1,5px;
+    font-size: 35px; 
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header{
+    background-color: #F9E7E7;
+}
+h1 strong{
+    color: #4D2D52;
+}
+
+
+.logo{
+    margin: 0;
+    padding-top: 10px;
+    padding-left:40px ;
+    color: white;
+}
+
+.hero{
+    height: 200px;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+    padding: 40px;
+    border-top: 1px solid grey;
+
+}
+ol{
+    margin-bottom: 0;
+}
+
+.hero-title{
+  font-family: 'DM Mono', monospace;
+  }
+.project{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 40px;
+    padding: 10px;
+    display: flex;
+}
+.project a{
+    color: black;
+}
+.project-details{
+    width: 500px;
+}
+
+.project-imageContainer{
+    width: 500px;
+}
+.portfolio{
+    background-color: #FAFAFA;
+}
+
+.portfolio h2{
+    padding-left:40px;
+    background-color: #FAFAFA;
+}
+

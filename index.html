@@ -1,12 +1,83 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf8">
-        <title>My Portafolio</title>
-        <link rel="stylesheet" href="./CSS/styles.css">
+        <title>Mis Portafolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" >
+        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,500;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./CSS/styles.css">
     </head>
     <body>
-        <h1>Hola</h1>
+        <header class="header">
+           <div>
+            <figure class="logo">
+                <img src="images/logo.svg" alt="" width="50px" height="50px">
+            </figure>
+               <nav class="menu">
+                   <ol>
+                       <li>
+                           <a href="#portafolio"> Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#habilidades"> Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#contacto"> Trabajemos Juntos</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div> 
+            </header>
+        <section class="hero"> 
+            <h1 class="hero-title">Hola! Soy Tatiana Rodriguez Cruz y estoy aprendiendo desarrollo <strong> Frontend</strong> </h1>
+        </section>
+        <section id="portafolio" class="portfolio"> 
+            <h2>Portalio (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-tittle"> Proyecto Responsive Design</h3>
+                    <p class="project-date"><small><strong>Fecha: 07/04/2020</strong></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong> <a href="https://tatiaarc.github.io/Responsive/">https://tatiaarc.github.io/Responsive/ </a> </small></p>
+                    <p class="project-description">Este es un portafolio que se encuentra optimizado para ser visto desde cualquier dispositivo.</p>
+                </div>
+                    <figure class="project-imageContainer"> 
+                    <img class="project-image" src="./images/responsive.png" alt="responsive project" width="368px" height="540px">
+                    <img/>
+                </figure>
+            </article> 
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-tittle"> Proyecto Tienda de Caja de Gatitos</h3>
+                    <p class="project-date"><small><strong>Fecha: 26/04/2020</strong></small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong> <a href="https://tatiaarc.github.io/Digital_product/"> https://tatiaarc.github.io/Digital_product/ </a> </small></p>
+                    <p class="project-description">Este es un portafolio que se encuentra optimizado para ser visto desde cualquier dispositivo.</p>
+                </div>
+                    <figure class="project-imageContainer"> 
+                    <img class="project-image" src="./images/brand.png" alt="product project" width="410px" height="442px" >
+                    <img/>
+                </figure>
+            </article> 
+
+        </section>
+        <section id="habilidades"> 
+            <h2>Habilidades</h2>
+            <article class="habilidad">
+                <h3 class="habilidad-tittle">Desarrollo Web</h3>
+                <figure>
+                    <img src="./images/web.svg" alt="web develoment" width="300px" height="300px">
+                </img>
+                </figure>
+                <p class="habilidad-description">  Creación de Singles Pages con funcionalidades básicas </p>
+            </article>
+         </section>
+        <section id="contacto" class="contact"> 
+            <form action="/suscripcion/" class="form-email">
+                <h3>Trabajemos Juntos </h3>
+                <input type="text" placeholder="Déjame tu email" id="email">
+                <button>Enviar </button>
+            </form>
+        </section>
+        <footer class="footer"></footer>
     </body>
     <script src="./scripts/scripts.js"></script>
 </html>
