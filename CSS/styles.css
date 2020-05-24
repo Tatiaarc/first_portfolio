@@ -7,9 +7,7 @@ h1{
     line-height: 1,5px;
     font-size: 35px; 
 }
-h1, h2, h3, h4, h5, h6{
-    font-weight: normal;
-}
+
 
 .header a{
     color: black;
@@ -43,8 +41,16 @@ ol{
     margin-bottom: 0;
 }
 
+ol,ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 .hero-title{
   font-family: 'DM Mono', monospace;
+  text-align: center;
   }
 .project{
     border: 1px solid grey;
@@ -52,6 +58,8 @@ ol{
     margin: 40px;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .project a{
     color: black;
@@ -72,3 +80,47 @@ ol{
     background-color: #FAFAFA;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+
+header ol{
+    display: flex;
+    height: inherit;
+}
+
+.menu{
+    height: inherit;
+}
+.header ol li{
+    height: inherit;
+   
+}
+.header a{
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo{
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer{
+     color: white;
+     background-color: #1b2127;
+     display: flex;
+     height: 20px;
+     justify-content: flex-end;
+     padding: 10px;
+}
+
+h2{
+    margin-top: 30px
+}
