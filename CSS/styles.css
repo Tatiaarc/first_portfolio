@@ -1,126 +1,179 @@
-body{
-    font-family: "Source Sans Pro", sans-serif;
-    margin: 0;
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
 }
 
-h1{
-    line-height: 1,5px;
-    font-size: 35px; 
+h1 {
+  line-height: 1, 5px;
+  font-size: 35px;
 }
 
-
-.header a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+.header a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.header{
-    background-color: #F9E7E7;
+.header {
+  background-color: #ffcec2;
 }
-h1 strong{
-    color: #4D2D52;
-}
-
-
-.logo{
-    margin: 0;
-    padding-top: 10px;
-    padding-left:40px ;
-    color: white;
+h1 strong {
+  color: #4d2d52;
 }
 
-.hero{
-    height: 200px;
-    box-shadow: 0px 0 2px 1px #e6e5e9;
-    padding: 40px;
-    border-top: 1px solid grey;
-
-}
-ol{
-    margin-bottom: 0;
+.logo {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 40px;
+  color: white;
 }
 
-ol,ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.hero {
+  height: 200px;
+  box-shadow: 0px 0 2px 1px #f3cece;
+  padding: 8%;
+  border-top: 1px solid grey;
 }
-
-
-.hero-title{
-  font-family: 'DM Mono', monospace;
+.hero-image {
   text-align: center;
-  }
-.project{
-    border: 1px solid grey;
-    border-radius: 5px;
-    margin: 40px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.project a{
-    color: black;
-}
-.project-details{
-    width: 500px;
+  padding: 40px;
 }
 
-.project-imageContainer{
-    width: 500px;
-}
-.portfolio{
-    background-color: #FAFAFA;
+ol {
+  margin-bottom: 0;
 }
 
-.portfolio h2{
-    padding-left:40px;
-    background-color: #FAFAFA;
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    height: 90px;
+.hero-title {
+  font-family: "DM Mono", monospace;
+  text-align: center;
+  padding: 20px;
 }
 
-header ol{
-    display: flex;
-    height: inherit;
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
 }
 
-.menu{
-    height: inherit;
-}
-.header ol li{
-    height: inherit;
-   
-}
-.header a{
-    height: inherit;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
+header ol {
+  display: flex;
+  height: inherit;
 }
 
-.logo{
-    height: auto;
-    text-align: center;
-    padding: 20px;
+.menu {
+  height: inherit;
+}
+.header ol li {
+  height: inherit;
+}
+.header a {
+  height: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 
-.footer{
-     color: white;
-     background-color: #1b2127;
-     display: flex;
-     height: 20px;
-     justify-content: flex-end;
-     padding: 10px;
+.logo {
+  height: auto;
+  text-align: center;
+  padding: 20px;
 }
 
-h2{
-    margin-top: 30px
+h2 {
+  margin: 0;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 28px;
+}
+.skills-html {
+  align-items: center;
+  width: 100%;
+}
+
+.skills-container {
+  /* border: 1px solid red; */
+  padding-bottom: 30px;
+}
+
+.skills {
+  background-color: #f8f9fa;
+  height: 396px;
+}
+.project {
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.project-image {
+  margin: 0px;
+  padding: 0px;
+}
+
+.project p {
+  text-align: left;
+  padding: 5px;
+  color: grey;
+  font-weight: 200;
+  padding-bottom: 20px;
+}
+.project-url {
+  border: 1px solid grey;
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  background-color: #f6f5f4;
+}
+.contact {
+  background-color: #1b2127;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  color: white;
+  background-color: #1b2127;
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  padding-right: 10px;
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+}
+
+.instagram .gmail .github {
+  padding: 10px;
+}
+
+.social {
+  padding: 10px;
+}
+.me {
+  margin: 0px;
+  color: #f9dddb;
+  font-size: 13px;
+  font-weight: bold;
 }

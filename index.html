@@ -2,10 +2,11 @@
 <html>
     <head>
         <meta charset="utf8">
-        <title>Mis Portafolio</title>
+        <title>Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" >
         <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,500;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/styles.css">
+        <link rel="stylesheet" href="./CSS/grid.css">
     </head>
     <body>
         <header class="header">
@@ -15,69 +16,99 @@
                <nav class="menu">
                    <ol>
                        <li>
-                           <a href="#portafolio"> Portafolio</a>
+                        <li>
+                            <a href="#hero">Home</a>
                         </li>
                         <li>
-                            <a href="#habilidades"> Habilidades</a>
+                            <a href="#skills">Skills</a>
+                        </li>
+                           <a href="#portfolio"> Portfolio</a>
                         </li>
                         <li>
-                            <a href="#contacto"> Trabajemos Juntos</a>
+                            <a href="#contact"> Contact</a>
+                        </li>
+                        <li>
+                            <a href="#experiments"> Experiments</a>
                         </li>
                     </ol>
                 </nav>
             </header>
         <section class="hero"> 
-            <h1 class="hero-title">Hola! Soy Tatiana Rodriguez Cruz y estoy aprendiendo desarrollo <strong> Frontend</strong> </h1>
+            <h1 class="hero-title">Hi! I'm Tatiana and I'm learning <strong> Web Development</strong> </h1>
+            <figure class="hero-image">
+                <img src="./images/usuario.png" alt="" width="70px" height="70px">
+            </figure>
+        </section>    
+        <section id="skills" class="skills"> 
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="row">
+                    <div class="col-1">
+                        <figure>
+                            <img src="./images/html.png" alt="" width="90px" height="90px">
+                        </figure>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="col-2">
+                        <figure>
+                            <img src="./images/css2.png" alt="" width="90px" height="90px">
+                        </figure>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="col-3">
+                        <figure>
+                            <img src="./images/javascript2.png" alt="" width="90px" height="90px">
+                        </figure>
+                        <h3>Javascript</h3>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- <section id="portafolio" class="portfolio"> 
-            <h2>Portalio (Proyectos Destacados)</h2>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-tittle"> Proyecto Responsive Design</h3>
-                    <p class="project-date"><small><strong>Fecha: 07/04/2020</strong></small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong> <a href="https://tatiaarc.github.io/Responsive/">https://tatiaarc.github.io/Responsive/ </a> </small></p>
-                    <p class="project-description">Este es un portafolio que se encuentra optimizado para ser visto desde cualquier dispositivo.</p>
-                </div>
-                    <figure class="project-imageContainer"> 
-                    <img class="project-image" src="./images/responsive.png" alt="responsive project" width="368px" height="540px">
-                    <img/>
-                </figure>
-            </article> 
-         <article class="project">
-                <div class="project-details">
-                    <h3 class="project-tittle"> Proyecto Tienda de Caja de Gatitos</h3>
-                    <p class="project-date"><small><strong>Fecha: 26/04/2020</strong></small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en: </strong> <a href="https://tatiaarc.github.io/Digital_product/"> https://tatiaarc.github.io/Digital_product/ </a> </small></p>
-                    <p class="project-description">Este es un portafolio que se encuentra optimizado para ser visto desde cualquier dispositivo.</p>
-                </div>
-                    <figure class="project-imageContainer"> 
-                    <img class="project-image" src="./images/brand.png" alt="product project" width="310px" height="342px" >
-                    <img/>
-                </figure>
-            </article> 
+        <section id="portfolio" class="portfolio"> 
+            <h2>My Portfolio</h2>
+            <div class="projects-container">
+                <div class="row">
+                    <div class="project">
+                        <figure class="project-image">
+                            <img src="./images/Project1.png" alt="" width="100%">
+                        </figure>
+                        <h3>Portfolio</h3>
+                        <p>
+                            07/04/2020 <br>Portfolio with responsive design.
+                        </p>
+                        <a class="project-url" href="https://github.com/Tatiaarc/Responsive" target="_blank">Visit GitHub</a>
+                    </div>
+                    <div class="project">
+                        <figure class="project-image">
+                            <img src="./images/Project2.png" alt="" width="100%">
+                        </figure>
+                        <h3>Cat's boxes Brand</h3>
+                        <p>
+                            25/04/2020 <br>Cat's store with payment method.
+                        </p>
+                        <a class="project-url" href="https://github.com/Tatiaarc/Digital_product" target="_blank">Visit GitHub</a>
+                    </div>
 
-        </section> -->
-        <section id="habilidades"> 
-            <h2>Habilidades</h2>
-            <article class="habilidad">
-                <h3 class="habilidad-tittle">Desarrollo Web</h3>
-                <figure>
-                    <img src="./images/web.svg" alt="web develoment" width="300px" height="300px">
-                </img>
-                </figure>
-                <p class="habilidad-description">  Creación de Singles Pages con funcionalidades básicas </p>
-            </article>
-         </section>
-        <section id="contacto" class="contact"> 
-            <form action="/suscripcion/" class="form-email">
-                <h3>Trabajemos Juntos </h3>
-                <input type="text" placeholder="Déjame tu email" id="email">
-                <button>Enviar </button>
-            </form>
+                </div>
+            </div>
         </section>
-        <footer class="footer">
-            <div class="end-message"> Designed by Tatiaarc </div>
-        </footer>
+        <section id="contact" class="contact">
+        <div class="social">
+            <a class="instagram" href="https://www.instagram.com/tatiaarc_/" target="_blank"> <img src="./images/instagram (1).png" alt="" width="60px" height="60px">
+            </a>
+        </div>
+        <div class="social">
+            <a class="gmail" href="mailto:tatianaarc492@gmail.com" target="_blank"> <img src="./images/correo-electronico.png" alt="" width="60px" height="60px">
+            </a>
+        </div>
+        <div class="social">
+            <a class="github" href="https://github.com/Tatiaarc" target="_blank"> <img src="./images/github (1).png" alt="" width="60px" height="60px">
+            </a>
+        </div>
+        </section>
     </body>
+    <footer  class="footer">
+        Powered by &nbsp <p class="me">me</p>
+    </footer>
     <script src="./scripts/scripts.js"></script>
 </html>

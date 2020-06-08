@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+  margin-top: 50px;
+}
+.col-1 {
+  width: 33.3333333333%;
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 5px;
+}
+.col-2 {
+  width: 33.3333333333%;
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 5px;
+}
+.col-3 {
+  width: 33.3333333333%;
+  /* border: 1px solid red; */
+  text-align: center;
+  padding: 5px;
+}
