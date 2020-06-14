@@ -1,114 +1,180 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf8">
-        <title>Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" >
-        <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,500;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./CSS/styles.css">
-        <link rel="stylesheet" href="./CSS/grid.css">
-    </head>
-    <body>
-        <header class="header">
-            <figure class="logo">
-                <img src="images/logo.svg" alt="" width="50px" height="50px">
+  <head>
+    <meta charset="utf8" />
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,500;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/grid.css" />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+  </head>
+  <body>
+    <i class="icon-menu burger-buttom" id="burger-buttom"></i>
+    <header class="header">
+      <figure class="logo">
+        <img src="images/logo.svg" alt="" width="50px" height="50px" />
+      </figure>
+      <nav class="menu">
+        <ol>
+          <li>
+            <a href="#hero">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#portfolio"> Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact"> Contact</a>
+          </li>
+          <li>
+            <a href="#experiments"> Experiments</a>
+          </li>
+        </ol>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1 class="hero-title">
+        Hi! I'm Tatiana and I'm learning <strong> Web Development</strong>
+      </h1>
+      <figure class="hero-image">
+        <img src="./images/usuario.png" alt="" width="70px" height="70px" />
+      </figure>
+    </section>
+    <section id="skills" class="skills">
+      <div class="skills-container">
+        <h2>My Skills</h2>
+        <div class="row1">
+          <div class="col-1">
+            <figure>
+              <img src="./images/html.png" alt="" width="90px" height="90px" />
             </figure>
-               <nav class="menu">
-                   <ol>
-                       <li>
-                        <li>
-                            <a href="#hero">Home</a>
-                        </li>
-                        <li>
-                            <a href="#skills">Skills</a>
-                        </li>
-                           <a href="#portfolio"> Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#contact"> Contact</a>
-                        </li>
-                        <li>
-                            <a href="#experiments"> Experiments</a>
-                        </li>
-                    </ol>
-                </nav>
-            </header>
-        <section class="hero"> 
-            <h1 class="hero-title">Hi! I'm Tatiana and I'm learning <strong> Web Development</strong> </h1>
-            <figure class="hero-image">
-                <img src="./images/usuario.png" alt="" width="70px" height="70px">
+            <h3>HTML</h3>
+          </div>
+          <div class="col-2">
+            <figure>
+              <img src="./images/css2.png" alt="" width="90px" height="90px" />
             </figure>
-        </section>    
-        <section id="skills" class="skills"> 
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <div class="row">
-                    <div class="col-1">
-                        <figure>
-                            <img src="./images/html.png" alt="" width="90px" height="90px">
-                        </figure>
-                        <h3>HTML</h3>
-                    </div>
-                    <div class="col-2">
-                        <figure>
-                            <img src="./images/css2.png" alt="" width="90px" height="90px">
-                        </figure>
-                        <h3>CSS</h3>
-                    </div>
-                    <div class="col-3">
-                        <figure>
-                            <img src="./images/javascript2.png" alt="" width="90px" height="90px">
-                        </figure>
-                        <h3>Javascript</h3>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="portfolio" class="portfolio"> 
-            <h2>My Portfolio</h2>
-            <div class="projects-container">
-                <div class="row">
-                    <div class="project">
-                        <figure class="project-image">
-                            <img src="./images/Project1.png" alt="" width="100%">
-                        </figure>
-                        <h3>Portfolio</h3>
-                        <p>
-                            07/04/2020 <br>Portfolio with responsive design.
-                        </p>
-                        <a class="project-url" href="https://github.com/Tatiaarc/Responsive" target="_blank">Visit GitHub</a>
-                    </div>
-                    <div class="project">
-                        <figure class="project-image">
-                            <img src="./images/Project2.png" alt="" width="100%">
-                        </figure>
-                        <h3>Cat's boxes Brand</h3>
-                        <p>
-                            25/04/2020 <br>Cat's store with payment method.
-                        </p>
-                        <a class="project-url" href="https://github.com/Tatiaarc/Digital_product" target="_blank">Visit GitHub</a>
-                    </div>
+            <h3>CSS</h3>
+          </div>
+          <div class="col-3">
+            <figure>
+              <img
+                src="./images/javascript2.png"
+                alt=""
+                width="90px"
+                height="90px"
+              />
+            </figure>
+            <h3>Javascript</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+      <h2>My Portfolio</h2>
+      <div class="projects-container">
+        <div class="row2">
+          <div class="project">
+            <figure class="project-image">
+              <img src="./images/Project1.png" alt="" width="100%" />
+            </figure>
+            <h3>Portfolio</h3>
+            <p>07/04/2020 <br />Portfolio with responsive design.</p>
+            <a
+              class="project-url"
+              href="https://github.com/Tatiaarc/Responsive"
+              target="_blank"
+              >Visit GitHub</a
+            >
+          </div>
+          <div class="project">
+            <figure class="project-image">
+              <img src="./images/Project2.png" alt="" width="100%" />
+            </figure>
+            <h3>Cat's boxes Brand</h3>
+            <p>25/04/2020 <br />Cat's store with payment method.</p>
+            <a
+              class="project-url"
+              href="https://github.com/Tatiaarc/Digital_product"
+              target="_blank"
+              >Visit GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div class="social">
+        <a
+          class="instagram"
+          href="https://www.instagram.com/tatiaarc_/"
+          target="_blank"
+        >
+          <img
+            src="./images/instagram (1).png"
+            alt=""
+            width="60px"
+            height="60px"
+          />
+        </a>
+      </div>
+      <div class="social">
+        <a class="gmail" href="mailto:tatianaarc492@gmail.com" target="_blank">
+          <img
+            src="./images/correo-electronico.png"
+            alt=""
+            width="60px"
+            height="60px"
+          />
+        </a>
+      </div>
+      <div class="social">
+        <a class="github" href="https://github.com/Tatiaarc" target="_blank">
+          <img
+            src="./images/github (1).png"
+            alt=""
+            width="60px"
+            height="60px"
+          />
+        </a>
+      </div>
+    </section>
+  </body>
+  <footer class="footer">
+    Powered by &nbsp
+    <p class="me">me</p>
+  </footer>
+  <script>
+    const menu = document.querySelector(".menu");
+    console.log();
+    const ipad = window.matchMedia("screen and (max-width: 767px)");
 
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="contact">
-        <div class="social">
-            <a class="instagram" href="https://www.instagram.com/tatiaarc_/" target="_blank"> <img src="./images/instagram (1).png" alt="" width="60px" height="60px">
-            </a>
-        </div>
-        <div class="social">
-            <a class="gmail" href="mailto:tatianaarc492@gmail.com" target="_blank"> <img src="./images/correo-electronico.png" alt="" width="60px" height="60px">
-            </a>
-        </div>
-        <div class="social">
-            <a class="github" href="https://github.com/Tatiaarc" target="_blank"> <img src="./images/github (1).png" alt="" width="60px" height="60px">
-            </a>
-        </div>
-        </section>
-    </body>
-    <footer  class="footer">
-        Powered by &nbsp <p class="me">me</p>
-    </footer>
-    <script src="./scripts/scripts.js"></script>
+    console.log(window);
+    console.log(menu);
+    const burgerButtom = document.querySelector("#burger-buttom");
+    console.log(burgerButtom);
+
+    ipad.addListener(validation);
+
+    function validation(event) {
+      if (event.matches) {
+        burgerButtom.addEventListener("click", hideShow);
+      } else {
+        burgerButtom.removeEventListener("click", hideShow);
+      }
+    }
+
+    function hideShow() {
+      if (menu.classList.contains("is-active")) {
+        menu.classList.remove("is-active");
+      } else {
+        menu.classList.add("is-active");
+      }
+    }
+  </script>
 </html>
